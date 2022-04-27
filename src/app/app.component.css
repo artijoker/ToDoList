@@ -1,0 +1,20 @@
+.currentDate{
+    margin-bottom: 35px;
+    color: green;
+}
+
+label{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+p{
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    color:green;
+}
+
